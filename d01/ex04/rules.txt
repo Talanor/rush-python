@@ -1,9 +1,9 @@
 You have to create a module named "utils.py" which will contain the following function:
 
-dislok: take a string in parameter, and cut the chain to every space
+dislok: take a string in parameter, and cut the chain to every space and return the result
 
 sort_list: take a list in parameter and order it from the smaller element to the greater element then print it on the standart output the list will only contains int values
 
 rev_it: a program which will take a list OR a string as parameter and will reverse it wether no matter the type is
 
-hint: list, str, iterator, for in, order
+hint: list, str, iterator, for in, order, isinstance, reversed

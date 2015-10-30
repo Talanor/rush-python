@@ -1,0 +1,38 @@
+For this exercise I need you to parse a log file givem as parameter and to prettify his output or create a new file with particular option
+
+if no parameters are given it will output on the satndart output each line but the severity level (explained later in the subject) will be colored
+   INFO will be in green
+   DEBUG will be in blue
+   FATAL will be in red
+   ALERT will be in yellow
+
+for the colors we give you this class as his with no explication how to use it (enjoy =D)
+
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+
+hint: what is a class ? =D
+
+you'll have to handle multiple parameters which will be:
+       -i name of the input file
+       -w print only the lines containing the word passed through this option it won't match datas like level and date.
+       -l print only line with the level defined through of this option
+       -f output is redirected in a particular file given through this option
+
+
+example of a log line
+
+25/10/2015 [INFO] all your base are belong to us
+
+the INFO word means the level
+the 25/10/2015 is the date of the log
+the "all your base are belong to us" is the log sentence (where the -w match)
+
+have fun
+
+hint: argparse, split, in, open, files operations ;)
