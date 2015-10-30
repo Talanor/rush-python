@@ -1,0 +1,9 @@
+You are a spy and I need informations about few peoples their logins are:
+    zambon_a
+    minore_v
+    cauvin_b
+    caussa_m
+
+I need a module which will take as parameter a "set" of names and if a name match with the following above I need you to output a list of dictionnary which will contain: their age, city of living, first name, last name, surname, if they are smoker and their born date the type of each argument are: int, str, str, str, str, str, boolean, datetime the keys are as is in the explanation.
+
+hint: set, dict, time.struct_time, tuple, boolean

@@ -1,0 +1,17 @@
+In this exercise you will have to do a "bristromathique-like" program.
+
+Your program will be named "bistromatique.py" and will receive his arguments through parameters.
+
+example of use:
+
+	./bistromatique.py "1+2+3"
+	6
+	./bistromatique.py "1+9/3"
+	4
+	./bistromatique.py "(1 + 2) + 3 - 145 * ((3 * 8) + 4 * (145 / 5)) + 8"
+	-20286.0
+
+All the input will be given in decimal, you don't have to handle all the basis
+
+hint: eval
+      sys

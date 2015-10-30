@@ -1,0 +1,3 @@
+create a simple program which will print "hello world" on the standart output
+
+the file will be called hello_world.py
