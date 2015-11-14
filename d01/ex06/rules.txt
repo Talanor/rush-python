@@ -1,24 +1,79 @@
-Now you've done the last exercise I need a programm name "stalker.py" to output datas in an understandable format called json (https://docs.python.org/2/library/json.html)
 
-The program  will take 1 or 2 parameters if one you should print on the standart output the json formated document otherwise you'll have to create the file given as second parameter and write the json in it.
 
-The program which will check your exercise need a 4 indent it's all yours to understand what it means ;)
+                              .?77777777777777$.
+                              777..777777777777$+
+                             .77    7777777777$$$           
+                             .777 .7777777777$$$$           
+                             .7777777777777$$$$$$           
+                             ..........:77$$$$$$$           
+                      .77777777777777777$$$$$$$$$.=======.  
+                     777777777777777777$$$$$$$$$$.========  
+                    7777777777777777$$$$$$$$$$$$$.========= 
+                    77777777777777$$$$$$$$$$$$$$$.========= 
+                    777777777777$$$$$$$$$$$$$$$$ :========+.
+                    77777777777$$$$$$$$$$$$$$+..=========++~
+                    777777777$$..~=====================+++++
+                    77777777$~.~~~~=~=================+++++.
+                    777777$$$.~~~===================+++++++.
+                    77777$$$$.~~==================++++++++: 
+                     7$$$$$$$.==================++++++++++. 
+                     .,$$$$$$.================++++++++++~.  
+                             .=========~.........           
+                             .=============++++++           
+                             .===========+++..+++           
+                             .==========+++.  .++           
+                              ,=======++++++,,++,           
+                              ..=====+++++++++=.            
+                                    ..~+=...                
 
-for example:
 
-    ./stalker.py mabite_j lol
+           ______      _   _                                  _     
+           | ___ \    | | | |                                | |    
+           | |_/ /   _| |_| |__   ___  _ __    _ __ _   _ ___| |__  
+           |  __/ | | | __| '_ \ / _ \| '_ \  | '__| | | / __| '_ \ 
+           | |  | |_| | |_| | | | (_) | | | | | |  | |_| \__ \ | | |
+           \_|   \__, |\__|_| |_|\___/|_| |_| |_|   \__,_|___/_| |_|
+                  __/ |                                             
+                 |___/
+
+-------------------------------------------------------------------------------
+
+ _____       ___   __   
+| ____|_  __/ _ \ / /_  
+|  _| \ \/ / | | | '_ \ 
+| |___ >  <| |_| | (_) |
+|_____/_/\_\\___/ \___/ 
+
+
+Subject:
+
+    Now you've done the last exercise I need a programm name "stalker.py" to 
+output datas in an understandable format called JSON.
+
+    The program  will take 1 or 2 parameters if one you should print on the 
+standard output the json formated document otherwise you'll have to create the 
+file given as second parameter and write the JSON in it.
+
+    The program which will check your exercise need a 4 indent it's all yours 
+to understand what it means ;)
+
+
+Example:
+
+    $> ./stalker.py 404_nf lol
     no such login known
 
-All the datas written here are not the output needed the xxx are here to hide datas about people we won't help you gathering datas
+All the datas written here are not the output needed the xxx are here to hide
+datas about people we won't help you gathering datas.
 
 =============
 
-    $ ./stalker.py lol_k
+    $> ./stalker.py lol_k
     no such user
 
 =============
 
-    $ ./stalker.py minore_v
+    $> ./stalker.py minore_v
     datas collected
     {
 	city-of-living: xxx,
@@ -33,16 +88,16 @@ All the datas written here are not the output needed the xxx are here to hide da
 
 =============
 
-    $ ./stalker.py lol_k pingou
+    $> ./stalker.py lol_k pingou
     no such user
     $ cat pingou
     no such file or directory
 
 =============
 
-    $ ./stalker.py minore_v koala
+    $> ./stalker.py minore_v koala
     datas collected
-    $ cat koala
+    $> cat koala
     datas collected
     {
 	city-of-living: xxx,
@@ -57,4 +112,6 @@ All the datas written here are not the output needed the xxx are here to hide da
 
 Think about something: Is it important to have your datas ordered ?
 
-hint: json (url above), open, with, file operation in python
+Hint:
+    * open
+    * with
