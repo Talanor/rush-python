@@ -62,3 +62,6 @@ may change during the rush.
 
     As always, for any question, come and see us on 
 irc.rezosup.org#cq-toulouse and most important of all, have fun!
+
+
+    Note: pep8 mandatory
