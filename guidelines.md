@@ -64,4 +64,6 @@ may change during the rush.
 irc.rezosup.org#cq-toulouse and most important of all, have fun!
 
 
-    Note: pep8 mandatory
+    Notes:
+        * pep8 mandatory
+        * python 3.3+ mandatory
