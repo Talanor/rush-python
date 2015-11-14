@@ -1,9 +1,68 @@
-You are a spy and I need informations about few peoples their logins are:
-    zambon_a
-    minore_v
-    cauvin_b
-    caussa_m
 
-I need a module which will take as parameter a "set" of names and if a name match with the following above I need you to output a list of dictionnary which will contain: their age, city of living, first name, last name, surname, if they are smoker and their born date the type of each argument are: int, str, str, str, str, str, boolean, datetime the keys are as is in the explanation.
 
-hint: set, dict, time.struct_time, tuple, boolean
+                              .?77777777777777$.
+                              777..777777777777$+
+                             .77    7777777777$$$           
+                             .777 .7777777777$$$$           
+                             .7777777777777$$$$$$           
+                             ..........:77$$$$$$$           
+                      .77777777777777777$$$$$$$$$.=======.  
+                     777777777777777777$$$$$$$$$$.========  
+                    7777777777777777$$$$$$$$$$$$$.========= 
+                    77777777777777$$$$$$$$$$$$$$$.========= 
+                    777777777777$$$$$$$$$$$$$$$$ :========+.
+                    77777777777$$$$$$$$$$$$$$+..=========++~
+                    777777777$$..~=====================+++++
+                    77777777$~.~~~~=~=================+++++.
+                    777777$$$.~~~===================+++++++.
+                    77777$$$$.~~==================++++++++: 
+                     7$$$$$$$.==================++++++++++. 
+                     .,$$$$$$.================++++++++++~.  
+                             .=========~.........           
+                             .=============++++++           
+                             .===========+++..+++           
+                             .==========+++.  .++           
+                              ,=======++++++,,++,           
+                              ..=====+++++++++=.            
+                                    ..~+=...                
+
+
+           ______      _   _                                  _     
+           | ___ \    | | | |                                | |    
+           | |_/ /   _| |_| |__   ___  _ __    _ __ _   _ ___| |__  
+           |  __/ | | | __| '_ \ / _ \| '_ \  | '__| | | / __| '_ \ 
+           | |  | |_| | |_| | | | (_) | | | | | |  | |_| \__ \ | | |
+           \_|   \__, |\__|_| |_|\___/|_| |_| |_|   \__,_|___/_| |_|
+                  __/ |                                             
+                 |___/
+
+-------------------------------------------------------------------------------
+
+ _____       ___  ____  
+| ____|_  __/ _ \| ___| 
+|  _| \ \/ / | | |___ \ 
+| |___ >  <| |_| |___) |
+|_____/_/\_\\___/|____/ 
+
+
+Subject:
+
+    You are a spy and I need informations about few peoples their logins are:
+    
+        * zambon_a
+        * minore_v
+        * cauvin_b
+        * caussa_m
+
+    I need a module which will take as parameter a "set" of names and if a name
+match with the following above I need you to output a list of dictionnary which
+will contain: their age, city of living, first name, last name, surname, if 
+they are smoker and their born date the type of each argument are: 
+int, str, str, str, str, str, boolean, datetime the keys are as is in the 
+explanation.
+
+Hint:
+    * set
+    * dicttime.struct_time
+    * tuple
+    * boolean
