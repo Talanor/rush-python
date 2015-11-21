@@ -47,71 +47,56 @@
 
 Subject:
 
-    Now you've done the last exercise I need a programm name "stalker.py" to 
-output datas in an understandable format called JSON.
+	You are required to write an executable called stalker.py. It will
+take either one or two parameters:
 
-    The program  will take 1 or 2 parameters if one you should print on the 
-standard output the json formated document otherwise you'll have to create the 
-file given as second parameter and write the JSON in it.
+	stalker.py login [path]
 
-    The program which will check your exercise need a 4 indent it's all yours 
-to understand what it means ;)
+	You should write the informations regarding the login, formatted as
+JSON, in the file described by path, or on the standard output.
+
+	The program which will check your exercise needs a 4 spaces
+indentation.
 
 
 Example:
 
-    $> ./stalker.py 404_nf lol
-    no such login known
-
-All the datas written here are not the output needed the xxx are here to hide
-datas about people we won't help you gathering datas.
-
-=============
-
-    $> ./stalker.py lol_k
-    no such user
-
-=============
-
-    $> ./stalker.py minore_v
-    datas collected
-    {
-	city-of-living: xxx,
-	first-name: xxx,
-	last-name: xxx,
-	sur-name: xxx,
-	last-name: xxx,
-	age: xxx,
-	skoker: xxx,
-	born-date: xxx
-    }
-
-=============
-
-    $> ./stalker.py lol_k pingou
-    no such user
-    $ cat pingou
-    no such file or directory
-
-=============
-
-    $> ./stalker.py minore_v koala
-    datas collected
-    $> cat koala
-    datas collected
-    {
-	city-of-living: xxx,
-	first-name: xxx,
-	last-name: xxx,
-	sur-name: xxx,
-	last-name: xxx,
-	age: xxx,
-	skoker: xxx,
-	born-date: xxx
-    }
-
-Think about something: Is it important to have your datas ordered ?
+	$> ./stalker.py 404_nf lol
+	no such login known
+	$> ./stalker.py lol_k
+	no such user
+	$> ./stalker.py minore_v
+	datas collected
+	{
+		city-of-living: xxx,
+		first-name: xxx,
+		last-name: xxx,
+		sur-name: xxx,
+		last-name: xxx,
+		age: xxx,
+		skoker: xxx,
+		born-date: xxx
+	}
+	$> ./stalker.py lol_k pingou
+	no such user
+	$ cat pingou
+	no such file or directory
+	$> ./stalker.py minore_v koala
+	datas collected
+	$> cat koala
+	datas collected
+	{
+		city-of-living: xxx,
+		first-name: xxx,
+		last-name: xxx,
+		sur-name: xxx,
+		last-name: xxx,
+		age: xxx,
+		skoker: xxx,
+		born-date: xxx
+	}
 
 Hint:
-    * open
-    * with
+	* Is it important to have your datas ordered ?
+	* open
+	* with
