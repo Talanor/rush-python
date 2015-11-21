@@ -47,44 +47,41 @@
 
 Subject:
 
-    Now you've done the last exercise I need a programm name stalker.py.
-    For this exercise I need you to parse a log file givem as parameter and to 
-prettify his output or create a new file with particular option
+	For this exercise you are required to provide prettylog.py, an 
+executable that will parse a log file given as parameter and to display it in
+a prettyfied fashion.
 
-    If no parameters are given it will output on the satndart output each line 
-but the severity level (explained later in the subject) will be colored.
+	By default, standard output will be used.
+ 
+	Below are the prettifying rules you must follow depending on the 
+severity level:
 
         * INFO will be in green
         * DEBUG will be in blue
         * FATAL will be in red
         * ALERT will be in yellow
 
-    For the colors we give you this class as his with no explication how to use
-it (enjoy =D)
+	For the colors we provide you with the class Colors in Color.py.
 
-class BColors(object):
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
+	You'll have to handle multiple parameters:
 
-You'll have to handle multiple parameters which will be:
-    -i name of the input file
-    -w print only the lines containing the word passed through this option it 
-won't match datas like level and date.
-    -l print only line with the level defined through of this option
-    -f output is redirected in a particular file given through this option
+	prettylog.py -i filepath [-w matchword] [-l sevlevel] [-f file]
 
+	-i|--input Is the path of the input file
+	-w|--word Indicates that only the lines whose log sentence include
+matchword will be dislayed
+it won't match datas like level and date.
+	-l Indicates that only the lines whose severity level are sevlevel
+	-f Is the path of the output file
 
 Example:
 
-25/10/2015 [INFO] all your base are belong to us
+	25/10/2015 [INFO] all your base are belong to us
 
-the INFO word means the level
-the 25/10/2015 is the date of the log
-the "all your base are belong to us" is the log sentence (where the -w match)
+	The INFO word means the level
+	The 25/10/2015 is the date of the log
+	The "all your base are belong to us" is the log sentence (where the
+-w match)
 
 Hint:
     * argparse
