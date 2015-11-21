@@ -47,22 +47,24 @@
 
 Subject:
 
-    You are a spy and I need informations about few peoples their logins are:
+	You are a spy and I need informations about few peoples their logins
+are:
     
-        * zambon_a
-        * minore_v
-        * cauvin_b
-        * caussa_m
+	* zambon_a
+	* minore_v
+	* cauvin_b
+	* caussa_m
 
-    I need a module which will take as parameter a "set" of names and if a name
-match with the following above I need you to output a list of dictionnary which
-will contain: their age, city of living, first name, last name, surname, if 
-they are smoker and their born date the type of each argument are: 
-int, str, str, str, str, str, boolean, datetime the keys are as is in the 
-explanation.
+	You are required to write a function which will take as parameter a set
+of names. This function will return a list of dictionnaries If one name matches
+one of the aforementioned logins.
 
-Hint:
-    * set
-    * dicttime.struct_time
-    * tuple
-    * boolean
+	Each dictionnary will contain:
+
+	* age: integer
+	* city_of_living: string
+	* first_name: string
+	* last_name: string
+	* nickname: string
+	* smoker: boolean
+	* birth_date: time.struct_time
