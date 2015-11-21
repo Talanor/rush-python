@@ -56,6 +56,9 @@ one will be solely focused on applying the concepts learnt in day 01.
 _not_ stop at the first mistake. Which means that you don't have to do the 
 exercises in any particular order, although we tried to keep them sorted by
 ascending difficulty.
+	You must turn-in the project by creating a repository called
+python-rush-2015 and giving ravane_a read permission.
+	Each exercise must be turned-in in its own directory.
 
 	It is expected that you keep an eye on this repository, as its content
 may change during the rush.
@@ -66,4 +69,4 @@ irc.rezosup.org#cq-toulouse and most important of all, have fun!
 
     Notes:
         * pep8 mandatory
-        * python 3.3+ mandatory
+        * python 3.4+ mandatory
