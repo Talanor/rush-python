@@ -1,0 +1,83 @@
+
+
+                              .?77777777777777$.            
+                              777..777777777777$+           
+                             .77    7777777777$$$           
+                             .777 .7777777777$$$$           
+                             .7777777777777$$$$$$           
+                             ..........:77$$$$$$$           
+                      .77777777777777777$$$$$$$$$.=======.  
+                     777777777777777777$$$$$$$$$$.========  
+                    7777777777777777$$$$$$$$$$$$$.========= 
+                    77777777777777$$$$$$$$$$$$$$$.========= 
+                    777777777777$$$$$$$$$$$$$$$$ :========+.
+                    77777777777$$$$$$$$$$$$$$+..=========++~
+                    777777777$$..~=====================+++++
+                    77777777$~.~~~~=~=================+++++.
+                    777777$$$.~~~===================+++++++.
+                    77777$$$$.~~==================++++++++: 
+                     7$$$$$$$.==================++++++++++. 
+                     .,$$$$$$.================++++++++++~.  
+                             .=========~.........           
+                             .=============++++++           
+                             .===========+++..+++           
+                             .==========+++.  .++           
+                              ,=======++++++,,++,           
+                              ..=====+++++++++=.            
+                                    ..~+=...                
+
+
+           ______      _   _                                  _     
+           | ___ \    | | | |                                | |    
+           | |_/ /   _| |_| |__   ___  _ __    _ __ _   _ ___| |__  
+           |  __/ | | | __| '_ \ / _ \| '_ \  | '__| | | / __| '_ \ 
+           | |  | |_| | |_| | | | (_) | | | | | |  | |_| \__ \ | | |
+           \_|   \__, |\__|_| |_|\___/|_| |_| |_|   \__,_|___/_| |_|
+                  __/ |                                             
+                 |___/                                              
+
+-------------------------------------------------------------------------------
+
+ _____         ___  _ 
+| ____|_  __  / _ \/ |
+|  _| \ \/ / | | | | |
+| |___ >  <  | |_| | |
+|_____/_/\_\  \___/|_|
+
+
+Subject:   TODO: Finir exemple, ajouter url de test ? http://dev.oxydros.ovh/rush/d02_ex01.json, ajouter refs
+
+	You have to create a program name check_my_sum.py which will take a url
+and a md5 hash in parameter. It will output the content of the file in base 64.
+To get the correct file, you will have to get the content of the page given by
+the url and check each file to test if there md5sum correspond to the given md5.
+Here is an exemple of the content:
+
+[
+    {
+        "Local Url": "./files/tres_le_fichier",
+        "Release date": "14/10/1200",
+        "Name": "Very Name",
+        "Director": "The Director",
+        "Description": "YOLO"
+    },
+    {
+        "Local Url": "./files/la_balle",
+        "Release date": "12/13/2015",
+        "Name": "Much swagg",
+        "Director": "Jean Jean",
+        "Description": "YOLO2"
+    }
+]
+
+Exemple:
+
+	$> ./check_my_sum.py "http://ceciestuneurl/" "424f601a95c06a2b37b9ff31f77a4a9a"
+	SmVyZW15IGJhcm5lcm9uIGVzdCB1biBlY2hhcHDDqS4=
+	$> ./check_my_sum.py
+	
+
+Hint:
+	* hashlib
+	* base64
+	* requests
