@@ -50,8 +50,9 @@ Subject:   TODO: Finir exemple, ajouter url de test ? http://dev.oxydros.ovh/rus
 	You have to create a program name check_my_sum.py which will take a url
 and a md5 hash in parameter. It will output the content of the file in base 64.
 To get the correct file, you will have to get the content of the page given by
-the url and check each file to test if there md5sum correspond to the given md5.
-Here is an exemple of the content:
+the url wich will provide you enought information to find the file with the
+correct md5sum.
+Here is an exemple of the page content:
 
 [
     {
