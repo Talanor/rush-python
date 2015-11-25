@@ -45,7 +45,7 @@
 |_____/_/\_\  \___/|_|
 
 
-Subject:   TODO: Finir exemple, ajouter url de test ? http://dev.oxydros.ovh/rush/d02_ex01.json, ajouter refs
+Subject:
 
 	You have to create a program name check_my_sum.py which will take a url
 and a md5 hash in parameter. It will output the content of the file in base 64.
@@ -73,12 +73,36 @@ Here is an exemple of the page content:
 
 Exemple:
 
-	$> ./check_my_sum.py "http://ceciestuneurl/" "424f601a95c06a2b37b9ff31f77a4a9a"
+	$> ./check_my_sum.py "http://url.fr/" "424f601a95c06a2b37b9ff31f77a4a9a"
 	SmVyZW15IGJhcm5lcm9uIGVzdCB1biBlY2hhcHDDqS4=
-	$> ./check_my_sum.py
-	
+
+	$> ./check_my_sum.py "toto" "424f601a95c06a2b37b9ff31f77a4a9a"
+	ERROR: Unable to access the given URL.
+
+	$> ./check_my_sum "http://url.fr/toto.json" "424f701a92c06a2b57b9ff11f77a4a9a"
+	ERROR: Unable to find the file corresponding to the given md5sum ("424f701a92c06a2b57b9ff11f77a4a9a").
+
+	$> ./check_my_sum
+	usage: check_my_sum.py [-h] url hash_md5
+	check_my_sum.py: error: the following arguments are required: url, hash_md5
+
+	$> ./check_my_sum -h
+	usage: check_my_sum.py [-h] url hash_md5
+
+	Output the content of a file in base 64
+
+	positional arguments:
+	  url         Valid url
+	  hash_md5    The md5 hash of the file you want to get.
+
+	optional arguments:
+	  -h, --help  show this help message and exit
+
+To test you program you can use this url: http://dev.oxydros.ovh/rush/d02_ex01.json
 
 Hint:
 	* hashlib
 	* base64
 	* requests
+	* argparse
+	* urllib.parse

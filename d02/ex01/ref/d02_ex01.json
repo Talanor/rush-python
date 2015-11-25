@@ -4,7 +4,7 @@
         "Release date": "14/10/1994",
         "Name": "The Shawshank Redemption",
         "Director": "Frank Darabont",
-        "Description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "Description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
     },
     {
         "Local Url": "./files/patriarch",
@@ -12,44 +12,44 @@
         "Name": "The Godfather",
         "Director": "Francis Ford Coppola",
         "Description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
-    }
+    },
     {
         "Local Url": "./files/too_much_swagg",
         "Release date": "18/07/2008",
         "Name": "The Dark Knight",
         "Director": "Christopher Nolan",
-        "Description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
-    }
+        "Description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice."
+    },
     {
         "Local Url": "./files/such_fight",
         "Release date": "15/10/1999",
         "Name": "Fight Club",
         "Director": "David Fincher",
-        "Description": "An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker, forming an underground fight club that evolves into something much, much more...",
-    }
+        "Description": "An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker, forming an underground fight club that evolves into something much, much more..."
+    },
     {
         "Local Url": "./files/the_game",
         "Release date": "Unknown",
         "Name": "The Game",
         "Description": "See the doc."
-    }
+    },
     {
         "Local Url": "./files/nyan_nyan_nyan",
         "Release date": "April 2011",
         "Name": "Nyan Cat",
         "Director": "The Internet",
-        "Description": "Nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan",
-    }
+        "Description": "Nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan"
+    },
     {
         "Local Url": "./files/smart_questions",
         "Name": "How To Ask Questions The Smart Way",
-        "Authors": "Eric S. Raymond, Rick Moen",
-    }
+        "Authors": "Eric S. Raymond, Rick Moen"
+    },
     {
         "Local Url": "./files/much_germy",
         "Release date": "24/11/2015",
         "Name": "GermyDoge",
         "Author": "Oxydros",
-        "Description": "Much wololo, very wow",
+        "Description": "Much wololo, very wow"
     }
 ]
