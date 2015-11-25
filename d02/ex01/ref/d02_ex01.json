@@ -1,55 +1,55 @@
 [
     {
-        "Local Url": "./files/shawshank_red",
-        "Release date": "14/10/1994",
-        "Name": "The Shawshank Redemption",
-        "Director": "Frank Darabont",
-        "Description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+        "local_url": "./files/shawshank_red",
+        "release_date": "14/10/1994",
+        "name": "The Shawshank Redemption",
+        "director": "Frank darabont",
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
     },
     {
-        "Local Url": "./files/patriarch",
-        "Release date": "24/03/1972",
-        "Name": "The Godfather",
-        "Director": "Francis Ford Coppola",
-        "Description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+        "local_url": "./files/patriarch",
+        "release_date": "24/03/1972",
+        "name": "The Godfather",
+        "director": "Francis Ford Coppola",
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
     },
     {
-        "Local Url": "./files/too_much_swagg",
-        "Release date": "18/07/2008",
-        "Name": "The Dark Knight",
-        "Director": "Christopher Nolan",
-        "Description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice."
+        "local_url": "./files/too_much_swagg",
+        "release_date": "18/07/2008",
+        "name": "The Dark Knight",
+        "director": "Christopher nolan",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice."
     },
     {
-        "Local Url": "./files/such_fight",
-        "Release date": "15/10/1999",
-        "Name": "Fight Club",
-        "Director": "David Fincher",
-        "Description": "An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker, forming an underground fight club that evolves into something much, much more..."
+        "local_url": "./files/such_fight",
+        "release_date": "15/10/1999",
+        "name": "Fight Club",
+        "director": "david Fincher",
+        "description": "An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker, forming an underground fight club that evolves into something much, much more..."
     },
     {
-        "Local Url": "./files/the_game",
-        "Release date": "Unknown",
-        "Name": "The Game",
-        "Description": "See the doc."
+        "local_url": "./files/the_game",
+        "release_date": "Unknown",
+        "name": "The Game",
+        "description": "See the doc."
     },
     {
-        "Local Url": "./files/nyan_nyan_nyan",
-        "Release date": "April 2011",
-        "Name": "Nyan Cat",
-        "Director": "The Internet",
-        "Description": "Nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan"
+        "local_url": "./files/nyan_nyan_nyan",
+        "release_date": "April 2011",
+        "name": "nyan Cat",
+        "director": "The Internet",
+        "description": "nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan"
     },
     {
-        "Local Url": "./files/smart_questions",
-        "Name": "How To Ask Questions The Smart Way",
-        "Authors": "Eric S. Raymond, Rick Moen"
+        "local_url": "./files/smart_questions",
+        "name": "How To Ask Questions The Smart Way",
+        "authors": "Eric S. Raymond, Rick Moen"
     },
     {
-        "Local Url": "./files/much_germy",
-        "Release date": "24/11/2015",
-        "Name": "GermyDoge",
-        "Author": "Oxydros",
-        "Description": "Much wololo, very wow"
+        "local_url": "./files/much_germy",
+        "release_date": "24/11/2015",
+        "name": "Germydoge",
+        "author": "Oxydros",
+        "description": "Much wololo, very wow"
     }
 ]

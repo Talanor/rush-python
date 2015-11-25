@@ -28,7 +28,7 @@ def get_page_content(session, url):
 
 def get_correct_file_content(session, url, hash_md5, file_infos):
     for file_inf in file_infos:
-        valid_url = urllib.parse.urljoin(url, file_inf['Local Url'])
+        valid_url = urllib.parse.urljoin(url, file_inf['local_url'])
         resp = session.get(valid_url)
         if resp.status_code != 200:
             continue
