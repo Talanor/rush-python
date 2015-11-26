@@ -56,18 +56,18 @@ Here is an exemple of the page content:
 
 [
     {
-        "Local Url": "./files/tres_le_fichier",
-        "Release date": "14/10/1200",
-        "Name": "Very Name",
-        "Director": "The Director",
-        "Description": "YOLO"
+        "local_url": "./files/tres_le_fichier",
+        "release_date": "14/10/1200",
+        "name": "Very Name",
+        "director": "The Director",
+        "description": "YOLO"
     },
     {
-        "Local Url": "./files/la_balle",
-        "Release date": "12/13/2015",
-        "Name": "Much swagg",
-        "Director": "Jean Jean",
-        "Description": "YOLO2"
+        "local_url": "./files/la_balle",
+        "release date": "12/13/2015",
+        "name": "Much swagg",
+        "director": "Jean Jean",
+        "description": "YOLO2"
     }
 ]
 
