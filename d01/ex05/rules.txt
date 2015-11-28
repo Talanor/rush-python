@@ -47,6 +47,8 @@
 
 Subject:
 
+	the program must be called spy
+
 	You are a spy and I need informations about few peoples their logins
 are:
     
