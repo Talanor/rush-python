@@ -63,8 +63,13 @@ Example:
 
 	$> ./stalker.py 404_nf lol
 	no such login known
+
 	$> ./stalker.py lol_k
 	no such user
+
+	$> ./stalker.py
+	stalker.py login [path]
+
 	$> ./stalker.py minore_v
 	datas collected
 	{
@@ -77,12 +82,16 @@ Example:
 		born-date: xxx,
 		unix_login: xxx
 	}
+
 	$> ./stalker.py lol_k pingou
 	no such user
+
 	$ cat pingou
 	no such file or directory
+
 	$> ./stalker.py minore_v koala
 	datas collected
+
 	$> cat koala
 	datas collected
 	{
