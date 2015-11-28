@@ -56,7 +56,9 @@ Subject:
     Your module must not be longer than three lines (1 import & 2 oneliners),
     or you will get a -42 mark for the exercise (please understand this is for your good).
 
-    Those are required steps:
+    PLEASE NOTE THAT USAGE OF SEMICOLON IS STRICTLY FORBIDDEN !
+
+    Those are required steps (in the correct order):
 
         * read the file word by word
 
