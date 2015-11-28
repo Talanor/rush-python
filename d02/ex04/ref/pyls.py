@@ -5,7 +5,7 @@
 ## Login   <sin@epitech.net>
 ##
 ## Started on  Sat Nov 28 14:19:20 2015 
-## Last update Sat Nov 28 14:43:42 2015 
+## Last update Sat Nov 28 14:52:13 2015 
 ##
 
 import sys
@@ -16,16 +16,19 @@ import grp
 import time
 
 def prettify(path):
-    data = os.stat(path)
-    return '%s %d %s %s %d %s %s' % (
-        stat.filemode(data.st_mode),
-        data.st_nlink,
-        pwd.getpwuid(data.st_uid).pw_name,
-        grp.getgrgid(data.st_gid).gr_name,
-        data.st_size,
-        time.ctime(data.st_mtime),
-        path.split('/')[-1]
-    )
+    try:
+        data = os.stat(path)
+        return '%s %d %s %s %d %s %s' % (
+            stat.filemode(data.st_mode),
+            data.st_nlink,
+            pwd.getpwuid(data.st_uid).pw_name,
+            grp.getgrgid(data.st_gid).gr_name,
+            data.st_size,
+            time.ctime(data.st_mtime),
+            path.split('/')[-1]
+        )
+    except Exception as e:
+        return ''
 
 def printFl(name: str, pretty: bool) -> None:
     printed = []
