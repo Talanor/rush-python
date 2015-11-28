@@ -69,4 +69,4 @@ one of the aforementioned logins.
 	* last_name: string
 	* nickname: string
 	* smoker: boolean
-	* birth_date: time.struct_time
+	* birth_date: formated date ('yyyy-mm-dd h:m:s', eg: '2015-11-28 15:40:30')

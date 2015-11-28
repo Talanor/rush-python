@@ -58,7 +58,8 @@ JSON, in the file described by path, or on the standard output.
 	The program which will check your exercise needs a 4 spaces
 indentation.
 
-	This exercise is related to previous one, using the same logins.
+	This exercise is related to previous one, using the same logins,
+	and the same data formating.
 
 Example:
 
