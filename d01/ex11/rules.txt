@@ -37,25 +37,21 @@
                  |___/
 
 -------------------------------------------------------------------------------
-
- _____         ___ ____  
-| ____|_  __  / _ \___ \ 
-|  _| \ \/ / | | | |__) |
-| |___ >  <  | |_| / __/ 
-|_____/_/\_\  \___/_____|
+  _____        _ _
+ | ____|_  __ / / |
+ |  _| \ \/ / | | |
+ | |___ >  <  | | |
+ |_____/_/\_\ |_|_|
 
 
 Subject:
 
-    Create a python module called Greetings in a Greetings.py file containing a function say_hello which will take no parameters and print "Hello World".
-    The __main__.py file (it's called the entry point) will use the module and call this function.
+	Create a programe name better_than_mr_clean_or_not.py that will do
+	exactly like the mr_clean you had to do in the C Pool, except that you
+	must use the Regular Expressions.
+	And of course you can't use the subprocess module or the system function
+	to call your mr_clean :)
 
-Exemple:
-
-	$> ./__main__.py
-	Hello World
-
-	$> ./__main__.py | cat -e
-	Hello World$
-
-Hint: import
+Hints:
+	* the os module
+	* the re module

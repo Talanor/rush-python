@@ -38,24 +38,47 @@
 
 -------------------------------------------------------------------------------
 
- _____         ___ ____  
-| ____|_  __  / _ \___ \ 
-|  _| \ \/ / | | | |__) |
-| |___ >  <  | |_| / __/ 
-|_____/_/\_\  \___/_____|
-
+ _____       ___  _  _   
+| ____|_  __/ _ \| || |  
+|  _| \ \/ / | | | || |_ 
+| |___ >  <| |_| |__   _|
+|_____/_/\_\\___/   |_|  
+                         
 
 Subject:
 
-    Create a python module called Greetings in a Greetings.py file containing a function say_hello which will take no parameters and print "Hello World".
-    The __main__.py file (it's called the entry point) will use the module and call this function.
+	This program should be call pyls.py
 
-Exemple:
+	For this exercise you have to recode the unix ls.
+	It's absolutely forbidden to use subprocess, os.system or any affiliate.
 
-	$> ./__main__.py
-	Hello World
+	You have to handle the standard ls with no option and the -l with custom printing
+	described as follow:
 
-	$> ./__main__.py | cat -e
-	Hello World$
+		$> ls
+		rushpython.py
+		koala.panda
 
-Hint: import
+		$> ls -l ./
+		./:
+		-rw-r--r-- 1 sin sin 197789 Mon Oct 19 08:16:14 2015 rushpython.py
+		-rw-r--r-- 1 sin sin 197789 Mon Oct 19 08:16:14 2015 koala.panda
+
+		$> ls -l ./ /dev
+		./:
+		-rw-r--r-- 1 sin sin 197789 Mon Oct 19 08:16:14 2015 rushpython.py
+		-rw-r--r-- 1 sin sin 197789 Mon Oct 19 08:16:14 2015 koala.panda
+
+		/dev:
+		-rw-r--r-- 1 sin sin 197789 Mon Oct 19 08:16:14 2015 rushpython.py
+		-rw-r--r-- 1 sin sin 197789 Mon Oct 19 08:16:14 2015 koala.panda
+
+	You only have to handle folders
+
+hint:
+	stat
+	listdir
+	filemode
+	time
+	pwd/grp
+	os
