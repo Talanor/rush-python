@@ -65,4 +65,7 @@ All the input will be given in decimal, you don't have to handle all the basis
 
 hint:
     * sys
+    * python builtins ;)
     * It should not take you more than 10 minutes to implement it
+
+It's absolutely forbidden to use the modules: os, subprocess or affiliate
