@@ -57,4 +57,4 @@ Exemple:
 	hello world
 
 	$> ./hello_world.py | cat -e
-	hello_world$
+	hello world$
