@@ -55,7 +55,7 @@ Exemple:
 	$> ./__main__.py
 	Hello World
 
-	$> ./__main__.py
+	$> ./__main__.py | cat -e
 	Hello World$
 
 Hint: import

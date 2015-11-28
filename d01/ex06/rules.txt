@@ -72,10 +72,10 @@ Example:
 		first-name: xxx,
 		last-name: xxx,
 		sur-name: xxx,
-		last-name: xxx,
 		age: xxx,
 		skoker: xxx,
-		born-date: xxx
+		born-date: xxx,
+		unix_login: xxx
 	}
 	$> ./stalker.py lol_k pingou
 	no such user
@@ -90,10 +90,10 @@ Example:
 		first-name: xxx,
 		last-name: xxx,
 		sur-name: xxx,
-		last-name: xxx,
 		age: xxx,
 		skoker: xxx,
-		born-date: xxx
+		born-date: xxx,
+		unix_login: xxx		
 	}
 
 Hint:
