@@ -50,4 +50,12 @@ Subject:
     Create a python module called Greetings in a Greetings.py file containing a function say_hello which will take no parameters and print "Hello World".
     The __main__.py file (it's called the entry point) will use the module and call this function.
 
+Exemple:
+
+	$> ./__main__.py
+	Hello World
+
+	$> ./__main__.py
+	Hello World$
+
 Hint: import

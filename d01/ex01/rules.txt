@@ -50,3 +50,11 @@ Subject:
     Create a simple program which will print "hello world" (without the 
 quotes) on the standart output.
     The file will be called hello_world.py
+
+Exemple:
+
+	$> ./hello_world.py
+	hello world
+
+	$> ./hello_world.py | cat -e
+	hello_world$
