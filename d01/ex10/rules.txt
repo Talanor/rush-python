@@ -1,0 +1,83 @@
+
+
+                              .?77777777777777$.
+                              777..777777777777$+
+                             .77    7777777777$$$
+                             .777 .7777777777$$$$
+                             .7777777777777$$$$$$
+                             ..........:77$$$$$$$
+                      .77777777777777777$$$$$$$$$.=======.
+                     777777777777777777$$$$$$$$$$.========
+                    7777777777777777$$$$$$$$$$$$$.=========
+                    77777777777777$$$$$$$$$$$$$$$.=========
+                    777777777777$$$$$$$$$$$$$$$$ :========+.
+                    77777777777$$$$$$$$$$$$$$+..=========++~
+                    777777777$$..~=====================+++++
+                    77777777$~.~~~~=~=================+++++.
+                    777777$$$.~~~===================+++++++.
+                    77777$$$$.~~==================++++++++:
+                     7$$$$$$$.==================++++++++++.
+                     .,$$$$$$.================++++++++++~.
+                             .=========~.........
+                             .=============++++++
+                             .===========+++..+++
+                             .==========+++.  .++
+                              ,=======++++++,,++,
+                              ..=====+++++++++=.
+                                    ..~+=...
+
+
+           ______      _   _                                  _
+           | ___ \    | | | |                                | |
+           | |_/ /   _| |_| |__   ___  _ __    _ __ _   _ ___| |__
+           |  __/ | | | __| '_ \ / _ \| '_ \  | '__| | | / __| '_ \
+           | |  | |_| | |_| | | | (_) | | | | | |  | |_| \__ \ | | |
+           \_|   \__, |\__|_| |_|\___/|_| |_| |_|   \__,_|___/_| |_|
+                  __/ |
+                 |___/
+
+-------------------------------------------------------------------------------
+
+  _____        _   ___
+ | ____|__  __/ | / _ \
+ |  _|  \ \/ /| || | | |
+ | |___  >  < | || |_| |
+ |_____|/_/\_\|_| \___/
+
+
+Subject:
+
+    You have to create a module named 'onelinerbaby.py' which will contain
+    two comprehension list oneliners and print the result on the standard
+    output.
+
+    You will need to read from a input file, wich is provided here: ./data.txt
+
+    Your module must not be longer than three lines (1 import & 2 oneliners),
+    or you will get a -42 mark for the exercise (please understand this is for your good).
+
+    Those are required steps:
+
+        * read the file word by word
+
+	* filter words by keeping only thoses who match: len(word) > 2
+
+	* then reverse all words
+
+	* sha512 all of thoses (right granted to use one line for
+	  importing, only importing, do not cheat!)
+
+	* take one characters of the first hashed word, two of the second,
+	  three of the third and so on..
+
+	* join your list with 'l33t\n' and print it
+
+	* all the printed lines have to finish with 'l33t' (think!)
+
+        * hints: open, for, string (slicing, spliting), bytes, range, hashlib
+
+    Python lists are awesome, do not stringify the the result before printing it!
+    Feel free to ask Google, read/watch online courses. (eg: https://www.youtube.com/playlist?list=PL61E606149255B362)
+
+    IF YOU DONE THIS, YOU PROBALY WROTED AWEFULL CODE, PLEASE NOTE THAT COMPREHENSION
+    LISTS MUST BE USED SPARINGLY.
