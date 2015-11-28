@@ -69,6 +69,6 @@ one of the aforementioned logins.
 	* last_name: string
 	* nickname: string
 	* smoker: boolean
-	* birth_date: formated date ('yyyy-mm-dd h:m:s', eg: '2015-11-28 15:40:30')
+	* birth_date: formated date ('yyyy-mm-dd', eg: '2015-11-28')
 
 	USAGE OF date/time MODULE IS MANDATORY.
