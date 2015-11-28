@@ -58,6 +58,7 @@ following function:
           the list will only contains int values
 
         * rev_it: a program which will take a list OR a string as parameter 
-          and will reverse it wether no matter the type is
+          and will reverse it wether no matter the type is, you have 
+	  to return the reversed variable (wether string or list) 
 
         * hint: list, str, iterator, for in, order, isinstance, reversed
