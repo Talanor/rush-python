@@ -1,0 +1,63 @@
+
+
+                              .?77777777777777$.
+                              777..777777777777$+
+                             .77    7777777777$$$           
+                             .777 .7777777777$$$$           
+                             .7777777777777$$$$$$           
+                             ..........:77$$$$$$$           
+                      .77777777777777777$$$$$$$$$.=======.  
+                     777777777777777777$$$$$$$$$$.========  
+                    7777777777777777$$$$$$$$$$$$$.========= 
+                    77777777777777$$$$$$$$$$$$$$$.========= 
+                    777777777777$$$$$$$$$$$$$$$$ :========+.
+                    77777777777$$$$$$$$$$$$$$+..=========++~
+                    777777777$$..~=====================+++++
+                    77777777$~.~~~~=~=================+++++.
+                    777777$$$.~~~===================+++++++.
+                    77777$$$$.~~==================++++++++: 
+                     7$$$$$$$.==================++++++++++. 
+                     .,$$$$$$.================++++++++++~.  
+                             .=========~.........           
+                             .=============++++++           
+                             .===========+++..+++           
+                             .==========+++.  .++           
+                              ,=======++++++,,++,           
+                              ..=====+++++++++=.            
+                                    ..~+=...                
+
+
+           ______      _   _                                  _     
+           | ___ \    | | | |                                | |    
+           | |_/ /   _| |_| |__   ___  _ __    _ __ _   _ ___| |__  
+           |  __/ | | | __| '_ \ / _ \| '_ \  | '__| | | / __| '_ \ 
+           | |  | |_| | |_| | | | (_) | | | | | |  | |_| \__ \ | | |
+           \_|   \__, |\__|_| |_|\___/|_| |_| |_|   \__,_|___/_| |_|
+                  __/ |                                             
+                 |___/
+
+-------------------------------------------------------------------------------
+
+ _____       ___ ______
+| ____|_  __/ _ \| ___ |
+|  _| \ \/ / | | | |_| |
+| |___ >  <| |_| |__   |
+|_____/_/\_\\___/ __|  |
+                         
+
+Subject:
+
+    You have to create a module named "myfirstclass.py" which will contain
+    a class named FirstClass which will implements:
+
+        * a constructor which will take a string as parameter and store her
+
+        * a method called hashIt which will have a kwarg called hash
+	  and take a callable as parameter and will return the hash of the
+	  string in the class returned by the callable
+
+        * a static method called hashParam which will take a string as
+	  parameter and a kwarg called hash which should be a callable and
+	  return the hash of the string in parameter returned by the callable
+
+        * hint: static method, kwarg, callable, class
