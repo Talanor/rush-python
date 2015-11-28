@@ -51,6 +51,8 @@ Subject:
 executable that will parse a log file given as parameter and to display it in
 a prettyfied fashion.
 
+  	You can find a sample logfile here: ./mabite.log
+
 	By default, standard output will be used.
 
 	Below are the prettifying rules you must follow depending on the
