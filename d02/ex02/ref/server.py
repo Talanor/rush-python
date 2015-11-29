@@ -10,13 +10,18 @@ def handler(sock, addr):
     data = sock.recv(9)
     if data.decode('utf-8').endswith('\n'):
         data = data.decode('utf-8')[:-1]
+        print(data + ' is trying hard...')
     retData = wash.stringWash(bytes(data, 'ascii'))
     sock.send(bytes(retData, 'ascii'))
-    hash_data = sock.recv(1024).decode('utf-8').split()[0]
+    hash_data = sock.recv(128).decode('utf-8').split()[0]
     if hash_data == hashlib.sha512(bytes(retData, 'ascii')).hexdigest():
-        sock.send(b'GG IT WORKS')
+        sock.send(b'\nGG IT WORKS\n')
+        print(data + ' done it!')
     else:
-        sock.send(b'such a bad token ...')
+        sock.send(b'\nsuch a bad token...\n')
+        print(data + ' failed it!')
+    sock.shutdown(socket.SHUT_RDWR)
+    sock.close()
     return 0
 
 if __name__ == '__main__':
@@ -32,3 +37,4 @@ if __name__ == '__main__':
         (c_sock, addr) = sock.accept()
         p = multiprocessing.Process(target=handler, args=(c_sock, addr))
         p.start()
+

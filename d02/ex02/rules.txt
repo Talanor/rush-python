@@ -47,7 +47,7 @@
 
 Subject:
 
-	There's a program which will listen on <ip>:<port>. Ater a connection, you'll have to send your epitech login.
+	There's a program which will listen on 10.15.193.206:4242. Ater a connection, you'll have to send your epitech login.
 	Once this has been done, the program will send you back a token.
 	You'll have to send the sha512 hash of the token in comprehensible hexadecimal.
 
