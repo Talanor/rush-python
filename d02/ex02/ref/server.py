@@ -8,21 +8,24 @@ import wash
 
 def handler(sock, addr):
     data = sock.recv(9)
-    if data.decode('utf-8').endswith('\n'):
-        data = data.decode('utf-8')[:-1]
+    try:
+        if data.decode('utf-8').endswith('\n'):
+            data = data.decode('utf-8')[:-1]
         print(data + ' is trying hard...')
-    retData = wash.stringWash(bytes(data, 'ascii'))
-    sock.send(bytes(retData, 'ascii'))
-    hash_data = sock.recv(128).decode('utf-8').split()[0]
-    if hash_data == hashlib.sha512(bytes(retData, 'ascii')).hexdigest():
-        sock.send(b'\nGG IT WORKS\n')
-        print(data + ' done it!')
-    else:
-        sock.send(b'\nsuch a bad token...\n')
-        print(data + ' failed it!')
-    sock.shutdown(socket.SHUT_RDWR)
-    sock.close()
-    return 0
+        retData = wash.stringWash(bytes(data, 'ascii'))
+        sock.send(bytes(retData, 'ascii'))
+        hash_data = sock.recv(128).decode('utf-8').split()[0]
+        if hash_data == hashlib.sha512(bytes(retData, 'ascii')).hexdigest():
+            sock.send(b'\nGG IT WORKS\n')
+            print(data + ' done it!')
+        else:
+            sock.send(b'\nsuch a bad token...\n')
+            print(data + ' failed it!')
+        sock.shutdown(socket.SHUT_RDWR)
+        sock.close()
+        return 0
+    except:
+        print(addr, 'failed hardly!')
 
 if __name__ == '__main__':
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
